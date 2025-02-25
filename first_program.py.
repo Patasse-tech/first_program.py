@@ -1,0 +1,17 @@
+# Print a greeting
+print("Hello! What is your name?")
+
+# Ask for user input and store it in the 'name' variable
+name = input()
+
+# Ask for the user's birth city
+print(f"Hello, {name}! Nice to meet you! What city were you born in?")
+
+# Store the city input in the 'city' variable
+city = input()
+
+# Create a message using the collected input
+message = f"{city} is a nice city! I wouldn't mind living there!"
+
+# Print the final message
+print(message)
